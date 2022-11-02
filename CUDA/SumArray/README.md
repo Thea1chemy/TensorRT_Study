@@ -1,4 +1,1 @@
-在GPU上实现矩阵相加（C = A + B）
-nvcc sum_arrays.cu -o sum
-nsys profile -o sum -f ./sum
-然后用nsystem打开sum.qdrep观察CUDA API那一栏的调用情况
+Sum2dArrayOnGpu_2dGrid_2dBlock.cu 是使用2D Grid和 2D Block计算二维矩阵相加
